@@ -2,7 +2,36 @@ module.exports = {
     purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        fontFamily: {
+            main: ['Bellefair', 'serif'],
+            sub: ['Barlow Condensed', 'sans-serif'],
+        },
+        fontSize: {
+            h1: '150px',
+            h2: '100px',
+            h3: '56px',
+            h4: '32px',
+            h5: ['28px', { letterSpacing: '4.75px' }],
+            sub1: '28px',
+            sub2: ['14px', { letterSpacing: '2.35px' }],
+            nav: [
+                '8px',
+                {
+                    letterSpacing: '1.7px',
+                },
+            ],
+            body: ['18px', { lineHeight: '32px' }],
+        },
+        colors: {
+            bk: '#0B0D17',
+            pl: '#D0D6F9',
+            wt: '#FFFFFF',
+        },
+        extend: {
+            spacing: {
+                96: '96px',
+            },
+        },
     },
     variants: {
         extend: {},
