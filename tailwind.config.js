@@ -15,9 +15,15 @@ module.exports = {
             sub1: '28px',
             sub2: ['14px', { letterSpacing: '2.35px' }],
             nav: [
-                '8px',
+                '16px',
                 {
-                    letterSpacing: '1.7px',
+                    letterSpacing: '2.7px',
+                },
+            ],
+            navMob: [
+                '14px',
+                {
+                    letterSpacing: '2.7px',
                 },
             ],
             body: ['18px', { lineHeight: '32px' }],

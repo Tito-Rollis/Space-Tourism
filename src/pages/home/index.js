@@ -4,6 +4,7 @@ function Home() {
     return (
         <div className={`h-screen ${style.homeContainer}`}>
             <Nav />
+            
         </div>
     );
 }

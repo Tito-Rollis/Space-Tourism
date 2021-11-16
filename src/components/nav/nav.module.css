@@ -1,13 +1,29 @@
-.headContainer {
-    height: auto;
-}
-
 .navContainer {
     background-color: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(4px);
 }
 
+.list {
+    transition: all 0.1s;
+}
+
+.list:hover {
+    box-shadow: 0px -3px 0px 0px white inset;
+}
+
 .logo {
     background-image: url('../../assets/icon/logo.svg');
     background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .navContainer {
+        width: 450px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navContainer {
+        width: 830px;
+    }
 }
