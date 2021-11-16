@@ -1,6 +1,41 @@
 .homeContainer {
-    background-image: url('../../assets/img/home/background-home-desktop.jpg');
+    background-image: url('../../assets/img/home/background-home-mobile.jpg');
     background-size: cover;
 }
 
+.textContainer {
+    width: 450px;
+}
 
+.cta {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .homeContainer {
+        background-image: url('../../assets/img/home/background-home-tablet.jpg');
+    }
+    .homeContent {
+        margin-top: 106px;
+    }
+    .cta {
+        width: 242px;
+        height: 242px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .homeContainer {
+        background-image: url('../../assets/img/home/background-home-desktop.jpg');
+    }
+    .homeContent {
+        gap: 386px;
+        margin-top: 200px;
+    }
+    .cta {
+        width: 274px;
+        height: 274px;
+    }
+}
