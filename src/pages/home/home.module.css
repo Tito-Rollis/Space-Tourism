@@ -3,26 +3,25 @@
     background-size: cover;
 }
 
-.textContainer {
-    width: 450px;
-}
-
 .cta {
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
     background-color: white;
 }
 
 @media (min-width: 768px) {
     .homeContainer {
         background-image: url('../../assets/img/home/background-home-tablet.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .homeContent {
-        margin-top: 106px;
+        margin-top: 50px;
     }
     .cta {
-        width: 242px;
-        height: 242px;
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -31,11 +30,11 @@
         background-image: url('../../assets/img/home/background-home-desktop.jpg');
     }
     .homeContent {
-        gap: 386px;
-        margin-top: 200px;
+        gap: 200px;
+        margin-top: 13vw;
     }
     .cta {
-        width: 274px;
-        height: 274px;
+        width: 230px;
+        height: 230px;
     }
 }

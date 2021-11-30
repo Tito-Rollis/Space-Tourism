@@ -2,13 +2,13 @@ import Nav from '../../components/nav/index';
 import style from './home.module.css';
 function Home() {
     return (
-        <div className={`h-screen ${style.homeContainer} `}>
-            <Nav />
+        <div className={`h-screen ${style.homeContainer} w-full pt-6`}>
+            <Nav home="rgba(255, 255, 255, 1)" />
             <div
-                className={`flex w-full flex-col lg:flex-row items-center justify-center ${style.homeContent}`}
+                className={`flex px-20 flex-col lg:flex-row items-center justify-center ${style.homeContent}`}
             >
                 <div
-                    className={`${style.textContainer} flex text-center flex-col lg:text-left lg:items-start`}
+                    className={`flex text-center flex-col lg:text-left lg:items-start`}
                 >
                     <p className="lg:text-h5 md:text-h5Tab text-h5Mob font-sub text-pl">
                         SO, YOU WANT TO TRAVEL TO
@@ -23,9 +23,9 @@ function Home() {
                 </div>
                 <div>
                     <div
-                        className={`rounded-full ${style.cta} mt-20 md:text-h4 text-h5Mob lg:text-h4  md:mt-32 lg:mt-0 flex justify-center items-center`}
+                        className={`rounded-full ${style.cta} mt-20  text-h5Mob lg:text-h4  md:mt-14 lg:mt-0 flex justify-center items-center`}
                     >
-                        <p className="font-main text-h4 ">EXPLORE</p>
+                        <p className="font-main ">EXPLORE</p>
                     </div>
                 </div>
             </div>
