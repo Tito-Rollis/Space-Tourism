@@ -8,7 +8,7 @@ function Home() {
                 className={`flex px-20 flex-col lg:flex-row items-center justify-center ${style.homeContent}`}
             >
                 <div
-                    className={`flex text-center flex-col lg:text-left lg:items-start`}
+                    className={`flex lg:w-3/6 text-center flex-col lg:text-left lg:items-start`}
                 >
                     <p className="lg:text-h5 md:text-h5Tab text-h5Mob font-sub text-pl">
                         SO, YOU WANT TO TRAVEL TO

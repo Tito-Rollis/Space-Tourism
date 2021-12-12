@@ -47,7 +47,6 @@ function Nav({ home, dest, crew, tech }) {
                     <span className="font-bold md:hidden lg:block">03</span>{' '}
                     TECHNOLOGY
                 </li>
-                
             </ul>
         </div>
     );
