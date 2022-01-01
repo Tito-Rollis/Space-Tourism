@@ -3,7 +3,6 @@ import style from './destiNav.module.css';
 
 function DestiNavTitle({ title, handler, clicked, text = 'text-pl' }) {
     let isClicked = {
-        // boxShadow: `0px -3px 0px 0px ${clicked} inset`,
         boxShadow: clicked,
     };
     return (

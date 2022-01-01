@@ -4,7 +4,7 @@ import style from './destination.module.css';
 import { data } from '../../api/data';
 import { useContext } from 'react';
 import { DestinationContext } from '../../context/destinationContext/index';
-function Destination() {
+export default function Destination() {
     const [index] = useContext(DestinationContext);
 
     return (
@@ -12,13 +12,14 @@ function Destination() {
             className={`pt-6 h-screen w-screen ${style.container} overflow-hidden`}
         >
             <Nav dest="rgba(255, 255, 255, 1)" />
-            <h1 className={`font-sub text-wt text-h5 ml-10 md:ml-14`}>
+            <h1
+                className={`font-sub text-wt text-h5Mob md:text-h5 ml-10 md:ml-14`}
+            >
                 <span
-                    className="font-bold text-h5"
+                    className="font-bold text-h5 mr-6 md:mr-7"
                     style={{
                         color: '#FFF',
                         opacity: '0.25',
-                        marginRight: '28px',
                     }}
                 >
                     01
@@ -51,7 +52,7 @@ function Destination() {
                             <h1 className="font-sub text-sub2 text-pl">
                                 AVG. DISTANCE
                             </h1>
-                            <p className="text-wt font-main text-sub1">
+                            <p className="text-wt font-main text-sub2 md:text-sub1">
                                 {data.destinations[index].distance}
                             </p>
                         </div>
@@ -59,7 +60,7 @@ function Destination() {
                             <h1 className="font-sub text-sub2 text-pl">
                                 Est. travel time
                             </h1>
-                            <p className="text-wt font-main text-sub1">
+                            <p className="text-wt font-main text-sub2 md:text-sub1">
                                 {data.destinations[index].travel}
                             </p>
                         </div>
@@ -69,5 +70,3 @@ function Destination() {
         </div>
     );
 }
-
-export default Destination;

@@ -1,0 +1,25 @@
+.container {
+    background-image: url('../../assets/img/crew/background-crew-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 30%;
+    }
+    .container {
+        background-image: url('../../assets/img/crew/background-crew-tablet.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        background-image: url('../../assets/img/crew/background-crew-desktop.jpg');
+        background-size: cover;
+    }
+}

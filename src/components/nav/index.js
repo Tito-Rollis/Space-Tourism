@@ -35,7 +35,7 @@ function Nav({ home, dest, crew, tech }) {
                     className={`flex gap-2 h-full items-center ${style.list}`}
                 >
                     <span className="font-bold md:hidden lg:block">02</span>{' '}
-                    CREW
+                    <Link to="/crew">CREW</Link>
                 </li>
 
                 <li
