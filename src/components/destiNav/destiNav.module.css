@@ -5,15 +5,3 @@
 .list:hover {
     box-shadow: 0px -3px 0px 0px rgba(255, 255, 255, 0.5) inset;
 }
-
-@media (min-width: 768px) {
-    .navContainer {
-        width: 450px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .navContainer {
-        width: 830px;
-    }
-}

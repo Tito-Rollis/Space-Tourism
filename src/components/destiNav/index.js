@@ -82,7 +82,7 @@ function DestiNav({ index }) {
     };
     return (
         <ul
-            className={`h-9 w-full md:flex items-center justify-start  md:gap-x-9 lg:gap-x-12 text-wt font-sub text-nav md:text-navMob lg:text-nav`}
+            className={`h-9 w-full flex items-center flex-row md:justify-start justify-center gap-x-9 lg:gap-x-12 text-wt font-sub text-nav md:text-navMob lg:text-nav`}
         >
             <DestiNavTitle
                 handler={moonClicked}
