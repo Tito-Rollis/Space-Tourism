@@ -5,6 +5,18 @@
     background-repeat: no-repeat;
 }
 
+.img {
+    border-bottom: 1px solid #757575;
+}
+
+.bullet {
+    background-color: rgb(255, 255, 255);
+}
+
+.bullet_default {
+    background-color: rgb(107, 107, 107);
+}
+
 @media (min-width: 768px) {
     .sidebar {
         width: 30%;
