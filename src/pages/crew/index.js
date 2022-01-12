@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Nav from '../../components/nav/index';
 import style from './crew.module.css';
 import { data } from '../../api/data';
