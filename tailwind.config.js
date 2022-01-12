@@ -8,13 +8,13 @@ module.exports = {
         },
         fontSize: {
             h1: '150px',
-            h1Mob: '80px',
+            h1Mob: '76px',
             h2: '80px',
             h3: '56px',
             h4: '32px',
             h5: ['22px', { letterSpacing: '4.75px' }],
             h5Tab: ['20px', { letterSpacing: '3.38px' }],
-            h5Mob: ['16px', { letterSpacing: '2.7px' }],
+            h5Mob: ['14px', { letterSpacing: '2.7px' }],
             sub1: '22px',
             sub2: ['14px', { letterSpacing: '2.35px' }],
             nav: [
@@ -31,7 +31,7 @@ module.exports = {
             ],
             body: ['16px', { lineHeight: '28px' }],
             bodyTab: ['14px', { lineHeight: '28px' }],
-            bodyMob: ['15px', { lineHeight: '25px' }],
+            bodyMob: ['12px', { lineHeight: '25px' }],
         },
         colors: {
             bk: '#0B0D17',

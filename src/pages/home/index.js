@@ -31,7 +31,7 @@ function Home() {
                     <div
                         className={`rounded-full ${style.cta} mt-12  text-h5Mob lg:text-h4  md:mt-14 lg:mt-0 flex justify-center items-center`}
                     >
-                        <p className="font-main ">EXPLORE</p>
+                        <p className="font-main text-center ">EXPLORE</p>
                     </div>
                 </div>
             </div>
