@@ -9,19 +9,12 @@
     background-color: white;
 }
 
-.homeContent {
-    margin-top: 100px;
-}
-
 @media (min-width: 768px) {
     .homeContainer {
         background-image: url('../../assets/img/home/background-home-tablet.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    }
-    .homeContent {
-        margin-top: 50px;
     }
     .cta {
         width: 150px;
@@ -33,12 +26,8 @@
     .homeContainer {
         background-image: url('../../assets/img/home/background-home-desktop.jpg');
     }
-    .homeContent {
-        gap: 200px;
-        margin-top: 13vw;
-    }
     .cta {
-        width: 230px;
-        height: 230px;
+        width: 200px;
+        height: 200px;
     }
 }

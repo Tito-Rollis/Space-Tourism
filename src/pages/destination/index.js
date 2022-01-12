@@ -11,7 +11,7 @@ export default function Destination() {
         <div
             className={`pt-6 h-screen w-screen ${style.container} overflow-hidden`}
         >
-            <Nav dest="rgba(255, 255, 255, 1)" />
+            <Nav number="01" />
             <h1
                 className={`font-sub text-wt text-h5Mob md:text-h5 ml-10 md:ml-14`}
             >

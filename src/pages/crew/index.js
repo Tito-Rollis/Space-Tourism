@@ -17,7 +17,7 @@ export default function Crew() {
         <div
             className={`pt-6 h-screen w-screen ${style.container} overflow-hidden static md:relative`}
         >
-            <Nav crew="rgba(255, 255, 255, 1)" />
+            <Nav number="02" />
             <h1
                 className={`font-sub text-wt text-center text-h5Mob md:text-h5 md:text-left md:mt-10 md:ml-14`}
             >
