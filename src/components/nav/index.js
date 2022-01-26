@@ -1,5 +1,6 @@
 import style from './nav.module.css';
 import TextNav from './textNav';
+import HamburgenComponent from '../hamburger/hamburgerComponent';
 function Nav({ number }) {
     const textNav = [
         { title: 'HOME', number: '00', link: '/' },
@@ -8,8 +9,9 @@ function Nav({ number }) {
         { title: 'TECHNOLOGY', number: '03', link: '/tech' },
     ];
     return (
-        <div className={`flex justify-between items-center h-20`}>
-            <div className={`h-10 w-10 ml-10 md:ml-14 ${style.logo}`}></div>
+        <div className={`flex px-10 justify-between items-center h-20`}>
+            <div className={`h-10 w-10 md:ml-14 ${style.logo}`}></div>
+            <HamburgenComponent />
             <ul
                 className={`h-full  md:flex items-center justify-center hidden md:gap-x-9 lg:gap-x-12 text-wt font-sub text-nav md:text-navMob lg:text-nav ${style.navContainer}`}
             >

@@ -13,7 +13,7 @@ export default function Destination() {
         >
             <Nav number="01" />
             <h1
-                className={`font-sub text-wt text-h5Mob md:text-h5 ml-10 md:ml-14`}
+                className={`font-sub text-wt text-left ml-10 text-h5Mob md:text-h5 md:mt-4 md:ml-14`}
             >
                 <span
                     className="font-bold text-h5 mr-6 md:mr-7"

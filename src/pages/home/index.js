@@ -7,7 +7,7 @@ function Home() {
         >
             <Nav number="00" />
             <div
-                className={`flex px-40 flex-col lg:flex-row items-center lg:justify-between flex-1 ${style.homeContent}`}
+                className={`flex px-40 flex-col lg:flex-row items-center justify-center lg:justify-between flex-1 ${style.homeContent}`}
             >
                 {/* TEXT */}
                 <div
