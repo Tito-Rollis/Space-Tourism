@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export default function HamburgerMenu() {
-    const [val, setVal] = useState(false);
-    const toggle = () => setVal(!val);
-    const [clicked, setClicked] = useState(false);
+export default function HamburgerMenu({ clicked, clickHandler }) {
     const [midDuration, setMidDuration] = useState('duration-1000');
     const [width, setWidth] = useState('w-1');
     const [hidden, setHidden] = useState('');
@@ -13,13 +10,6 @@ export default function HamburgerMenu() {
     const [bottomTransform, setBottomTransform] = useState('');
     const [color, setColor] = useState('bg-pl');
     const [z, setZ] = useState('');
-    let clickHandler = (e) => {
-        e.preventDefault();
-        toggle();
-
-        setClicked(!clicked);
-    };
-
     useEffect(() => {
         document.onload = setWidth('w-6');
         document.onload = setTopWidth('w-6');
@@ -29,22 +19,21 @@ export default function HamburgerMenu() {
             setHidden('-translate-x-6');
             setTopTransform('rotate-45 translate-y-2');
             setBottomTransform('-rotate-45 -translate-y-2');
-            setColor('bg-white');
+            // setColor('bg-pl');
             setZ('z-40');
-            console.log('clicked');
         }
         if (!clicked) {
             setHidden('');
             setTopTransform('');
             setBottomTransform('');
-            setColor('bg-pl');
+            // setColor('bg-pl');
         }
     }, [clicked]);
 
     return (
         <button
             onClick={clickHandler}
-            className={`box-border flex md:hidden flex-col justify-between h-5 overflow-hidden z-10`}
+            className={`box-border flex md:hidden flex-col justify-between h-5 overflow-hidden `}
         >
             <span
                 className={`h-1 ${topWidth} ${topTransform} transform ${color}  ${z} z-30 rounded transition-all ${midDuration}`}
