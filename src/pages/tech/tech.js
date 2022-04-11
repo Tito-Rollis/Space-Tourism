@@ -12,7 +12,7 @@ export default function Tech() {
         window.addEventListener('resize', () => setSize(window.innerWidth));
     }, []);
     return (
-        <div onResiz className={`${styles.container} pt-6`}>
+        <div className={`${styles.container} h-full pt-6`}>
             <Nav number="03" />
             <h1
                 className={`font-sub text-wt text-center text-h5Mob md:text-h5 md:text-left md:mt-4 md:ml-14`}
