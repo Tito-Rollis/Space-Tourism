@@ -9,7 +9,7 @@ export default function Destination() {
 
     return (
         <div
-            className={`pt-6 h-screen w-screen ${style.container} overflow-hidden`}
+            className={`pt-6 max-h-fit min-h-screen pb-6 w-screen ${style.container}`}
         >
             <Nav number="01" />
             <h1

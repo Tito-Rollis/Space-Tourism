@@ -9,7 +9,7 @@ export default function Crew() {
     const bullets = [0, 1, 2, 3];
     return (
         <div
-            className={`pt-6 h-screen pb-6 w-screen ${style.container}  static md:relative`}
+            className={`pt-6 max-h-fit min-h-screen pb-6 w-screen ${style.container}  static md:relative`}
         >
             <Nav number="02" />
             <h1
